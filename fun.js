@@ -7,10 +7,21 @@
 // odd number system
 function oddNum(num){
     if(num % 2==0){
-       console.log('it is oddNum');
+      return('it is oddNum');
     }
-    else{console.log('it is not oddNum')}
+    else{return('it is not oddNum')}
 }
 
-//var sum =oddNum(45);
-console.log(oddNum(4));
+var sum =oddNum(45);
+console.log(sum);
+
+switch ('shop'){
+case('shop'):
+console.log('it is data');
+break;
+case('market'):
+console.log('It is market');
+break;
+default:
+    console.log('data not found!!')
+}
